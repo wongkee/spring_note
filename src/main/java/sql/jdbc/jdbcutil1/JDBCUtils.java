@@ -1,8 +1,7 @@
-package sql.jdbc.jdbcutil;
+package sql.jdbc.jdbcutil1;
 
 import sql.jdbc.Good;
 
-import java.awt.print.PrinterAbortException;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +15,7 @@ public class JDBCUtils {
             //1、加载数据库驱动
             Class.forName("com.mysql.jdbc.Driver");
             //2、通过URL user password 建立连接
-            conn= DriverManager.getConnection(DataSource.URL,DataSource.USER,DataSource.PASSWORD);
+            conn= DriverManager.getConnection(DataSource.URL, DataSource.USER, DataSource.PASSWORD);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -41,7 +40,7 @@ public class JDBCUtils {
 
     //增删改
  //   public static int executeUpdate(String sql){
-    public static  int executeUpdate(String sql,List<Object> params){
+    public static  int executeUpdate(String sql,Object ...params){
         int result=0;
         Connection conn=null;
         PreparedStatement preparedStatement=null;
@@ -49,18 +48,8 @@ public class JDBCUtils {
         try {
             conn=getConnection();
             preparedStatement=conn.prepareStatement(sql);
-            //每次数据库操作这里都要修改数据，这不符合工具类的要求，所以要将这些数据作为参数传递进来，但是参数的个数、数据类型都是不确定的，这里改如何解决呢？
-            /*
-            * 1、参数的个数不确定，可以采用动态数组 ArrayList.
-            * 2、数据类型不确定，可以向上转型，统统采用Object接收
-            * */
-           /*
-           //注意此处的下标是从1开始
-           preparedStatement.setString(1,"book");
-            preparedStatement.setFloat(2,100);
-            preparedStatement.setInt(3,30);*/
-           for(int i=0;i<params.size();i++){
-               preparedStatement.setObject(i+1,params.get(i));
+           for(int i=0;i<params.length;i++){
+               preparedStatement.setObject(i+1,params[i]);
            }
             result=preparedStatement.executeUpdate();
         } catch (SQLException e) {
@@ -71,7 +60,7 @@ public class JDBCUtils {
         return 0;
     }
     //查询操作
-    public static List<Good> executeQuery(String sql,List<Object> params){
+    public static List<Good> executeQuery(String sql,Object ...params){
         List<Good> goods=new ArrayList<Good>();
         Connection conn=null;
         PreparedStatement preparedStatement=null;
@@ -79,12 +68,12 @@ public class JDBCUtils {
         try {
             conn=getConnection();
             preparedStatement=conn.prepareStatement(sql);
-           /* preparedStatement.setString(1,"price");*/
-            for(int i=0;i<params.size();i++){
-                preparedStatement.setObject(i+1,params.get(i));
+            for(int i=0;i<params.length;i++){
+                preparedStatement.setObject(i+1,params[i]);
             }
            resultSet=preparedStatement.executeQuery();
             while (resultSet.next()){
+                //使用哪类对象接收，工具类其实是不应该知道的
                 Good good=new Good();
                 good.setGid(resultSet.getInt("gid"));
                 good.setGname(resultSet.getString("gname"));
