@@ -8,7 +8,7 @@ import java.util.List;
 public class Test {
     public static  void main(String args[]){
         String sql="select * from goods where gname=?";
-        List<Good> goods= JDBCUtils.executeQuery(sql,"computer");
+        List<Good> goods= JDBCUtils.executeQuery(sql,new GoodDao(),"computer");
         for(Good good:goods){
             System.out.println(good);
         }

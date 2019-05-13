@@ -60,8 +60,8 @@ public class JDBCUtils {
         return 0;
     }
     //查询操作
-    public static List<Good> executeQuery(String sql,Object ...params){
-        List<Good> goods=new ArrayList<Good>();
+    public static <T>List<T> executeQuery(String sql,RowMap<T> rowMap,Object ...params){
+        List<T> result=new ArrayList<T>();
         Connection conn=null;
         PreparedStatement preparedStatement=null;
         ResultSet resultSet=null;
@@ -74,19 +74,15 @@ public class JDBCUtils {
            resultSet=preparedStatement.executeQuery();
             while (resultSet.next()){
                 //使用哪类对象接收，工具类其实是不应该知道的
-                Good good=new Good();
-                good.setGid(resultSet.getInt("gid"));
-                good.setGname(resultSet.getString("gname"));
-                good.setGprice(resultSet.getFloat("gprice"));
-                good.setGnum(resultSet.getInt("gnum"));
-                goods.add(good);
+                T t=rowMap.rowMapping(resultSet);
+                result.add(t);
             }
         } catch (SQLException e) {
             e.printStackTrace();
         }finally {
             closeAll(resultSet,preparedStatement,conn);
         }
-        return  goods;
+        return  result;
     }
 
 }
