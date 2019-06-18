@@ -35,3 +35,42 @@ Spring从两个角度实现自动化配置：
 java配置相对于xml文件进行配置来说，类型安全并且对重构友好
  
 ##### 3、xml配置
+因为使用XML文件配置bean已经较少使用，所以对一些bean语法的细节部分不再赘述，只是简要说明下使用流程。  
+###### 使用流程
+1、 创建 User类，代码中存在于 spring_in_action.beans.xmlconfig.User  
+2、 书写配置文件 spring-conmfig.xml,名字不唯一
+3、 在代码中调用配置好的bean
+###### 依赖注入的方式  
+1、 属性注入，通过setter方法注入
+```xml
+ <bean id="user" class="spring_in_action.beans.xmlconfig.User">
+        <property name="username" value="String"></property>
+        <property name="passworld" value="String"></property>
+    </bean>
+```
+2、构造器注入
+```xml
+    <bean id="user1" class="spring_in_action.beans.xmlconfig.User">
+       <constructor-arg value="zhangsan"></constructor-arg>
+        <constructor-arg value="123"></constructor-arg>
+    </bean>
+```
+
+###### 使用IOC容器中的bean
+1、加载配置文件
+```java
+ApplicationContext context=new ClassPathXmlApplicationContext("spring-config.xml");
+```
+ApplicationContext的主要实现类：
+1. ClassPathXmlApplicationContext：  从类路径下加载配置文件FileSystemXmlApplicationContext: 从文件系统中加载配置文件
+2. ConfigurableApplicationContext 扩展于ApplicationContext,新增两个主要方法：refresh()和close(),让ApplicationContext具有启动刷新和关闭上下文的能力
+3. WebApplicationContext 是专门为Web应用而准备的，它允许从相对于WEB根目录的路径中完成初始化工作
+2、读取bean的方法
+（1）、通过id读取  
+```User user=（HelloWorld）context.getBean("user");```
+（2）、通过类型获取(这种方法要求这个bean在IOC容器中是唯一的)  
+```User user1=context.getBean(User.class);```
+3、 使用bean
+```java
+System.out.println(user.toString());
+```
