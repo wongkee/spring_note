@@ -49,6 +49,7 @@ public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote {
         this(0);
     }
     子类的构造方法被调用时，父类的构造方法也会被调用，所以此处需要处理这个异常，抛出或者捕获
+    UnicastRemoteObject() 被调用时变导出远程对象
         * */
         super();
     }

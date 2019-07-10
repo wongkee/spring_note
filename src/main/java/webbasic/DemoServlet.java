@@ -27,19 +27,20 @@ public class DemoServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPost(req, resp);
+    //    super.doPost(req, resp);
+        System.out.println(req.getParameter("name"));
         System.out.println("post");
     }
 
-    @Override
+ /*   @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        super.service(req, resp);
         System.out.println("servie");
-        System.out.println(req.getContentType());
+       System.out.println(req.getContentType());
         System.out.println(req.getContextPath());//spring_note,跟配置tomcat的时候设置的contextpath一致
 
       //获取响应的输出流，并且把响应的信息写入到输出流
         PrintWriter writer=resp.getWriter();
         writer.println("Hello Servlet!");
-    }
+    }*/
 }

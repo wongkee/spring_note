@@ -18,6 +18,8 @@ public class Service {
             // Registry registry=LocateRegistry.getRegistry();
             //  registry.bind("Remo",stub);
            // https://segmentfault.com/a/1190000004494341
+
+            //获得远程对象
             MyRemote service=new MyRemoteImpl();
             String name="gupao.design.proxy.headfirst.rmi";
             Registry registry1 = LocateRegistry.createRegistry(1089);
