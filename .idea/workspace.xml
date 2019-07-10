@@ -7,48 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c88141-50da-4b6f-a1fe-ed4a5097ecc7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/delegate/Delegate.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/delegate/delegate.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/AbstractFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/DefaultFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/factory.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/BMCar.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/BMCarFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/BenzCarFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/BezCar.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/Car.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/CarFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/Test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/simplefactory/ChinesePizza.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/simplefactory/GreekPizza.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/simplefactory/PepperoniPizza.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/simplefactory/Pizza.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/simplefactory/PizzaStore.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/simplefactory/SimpleFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy/Xifengjiu.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy_cinema/Cinema.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy_cinema/Movie.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy_cinema/RealMovie.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy_cinema/Test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/singleton/Singleton.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/singleton/Singleton1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/singleton/Singleton2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/singleton/Singleton3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/singleton/Singleton4.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/singleton/SingletonTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/singleton/SpringSingleton.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/singleton/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/singleton/singleton.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/javabasic/extend/Instrument.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/javabasic/extend/Wind.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gupao/design/design.md" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/design.md" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy/DynamicProxyTest.java" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy/DynamicProxyTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy/GuitaiA.java" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy/GuitaiA.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmi/MyRemoteImpl.java" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmi/MyRemoteImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmi/Service.java" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmi/Service.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/staticproxy/Cinema.java" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/staticproxy/Cinema.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/staticproxy/StaticProxyTest.java" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/proxy/staticproxy/StaticProxyTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webbasic/DemoServlet.java" afterPath="$PROJECT_DIR$/src/main/java/webbasic/DemoServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/ChicagoStylePizzaStore.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYChinesePizza.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYGreekPizza.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYPepperoniPizza.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYPizzaStore.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/Pizza.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/PizzaStore.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gupao/design/factory/factory.md" afterPath="$PROJECT_DIR$/src/main/java/gupao/design/factory/factory.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,104 +38,105 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GumballMachine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/GumballMachine.java">
+      <file leaf-file-name="PizzaStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/simplefactory/PizzaStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Compute.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmitutor/Compute.java">
+      <file leaf-file-name="SimpleFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/simplefactory/SimpleFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="290">
+              <caret line="37" column="21" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="37" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComputeEngine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmitutor/ComputeEngine.java">
+      <file leaf-file-name="PizzaStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/PizzaStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="241">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComputePi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmitutor/ComputePi.java">
+      <file leaf-file-name="NYPizzaStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYPizzaStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pizza.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/Pizza.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmitutor/Pi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1475">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
+      <file leaf-file-name="factory.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/factory.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="285">
+                <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmitutor/Task.java">
+      <file leaf-file-name="NYChinesePizza.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYChinesePizza.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyRemote.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmi/MyRemote.java">
+      <file leaf-file-name="NYGreekPizza.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYGreekPizza.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyRemoteClient.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmi/MyRemoteClient.java">
+      <file leaf-file-name="NYPepperoniPizza.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYPepperoniPizza.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="250">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyRemoteImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmi/MyRemoteImpl.java">
+      <file leaf-file-name="ChicagoStylePizzaStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/ChicagoStylePizzaStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="63" column="1" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="63" selection-end-column="1" />
+            <state relative-caret-position="175">
+              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmi/Service.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -209,16 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy/GuitaiA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy_cinema/Movie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy_cinema/RealMovie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gupao/design/proxy/staticproxy/RealMovie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gupao/design/proxy/staticproxy/Cinema.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gupao/design/proxy/staticproxy/StaticProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy/DynamicProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy_cinema/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy_cinema/Cinema.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gupao/design/design.md" />
         <option value="$PROJECT_DIR$/src/main/java/webbasic/DemoServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/gupao/design/singleton/Singleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/gupao/design/singleton/Singleton1.java" />
@@ -260,6 +218,16 @@
         <option value="$PROJECT_DIR$/src/main/java/javabasic/extend/Wind.java" />
         <option value="$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmi/MyRemoteImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmi/Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/ChicagoStylePizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/PepperoniPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/ChinesePizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYChinesePizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYGreekPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYPepperoniPizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYPizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/PizzaStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gupao/design/factory/factory.md" />
       </list>
     </option>
   </component>
@@ -276,10 +244,11 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-26" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1424" />
+    <option name="y" value="88" />
     <option name="width" value="1456" />
-    <option name="height" value="836" />
+    <option name="height" value="799" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -343,7 +312,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_note" type="b2602c69:ProjectViewProjectNode" />
@@ -352,8 +321,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_note" type="b2602c69:ProjectViewProjectNode" />
@@ -362,30 +331,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="headfirst" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_note" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_note" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="headfirst" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_note" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_note" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="headfirst" type="462c0819:PsiDirectoryNode" />
-              <item name="rmitutor" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="simplefactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_note" type="b2602c69:ProjectViewProjectNode" />
@@ -414,18 +361,20 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\eclipce_workspace\spring_note\src\main\java\gupao\design\proxy\staticproxy" />
-      <recent name="E:\eclipce_workspace\spring_note\src\main\java\sql\jdbc\jdbcutil1" />
-      <recent name="E:\eclipce_workspace\spring_note\src\main\resources\images\note" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="gupao.design.proxy.staticproxy" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\eclipce_workspace\spring_note\src\main\resources" />
       <recent name="E:\eclipce_workspace\spring_note\src\main\java\xml" />
       <recent name="E:\eclipce_workspace\spring_note\src\main\java\sql" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gupao.design.factory.abstractfactory" />
+      <recent name="gupao.design.proxy.staticproxy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\eclipce_workspace\spring_note\src\main\java\gupao\design\factory\abstractfactory" />
+      <recent name="E:\eclipce_workspace\spring_note\src\main\java\gupao\design\proxy\staticproxy" />
+      <recent name="E:\eclipce_workspace\spring_note\src\main\java\sql\jdbc\jdbcutil1" />
+      <recent name="E:\eclipce_workspace\spring_note\src\main\resources\images\note" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -772,7 +721,7 @@
       <workItem from="1562161128775" duration="2634000" />
       <workItem from="1562557192297" duration="10498000" />
       <workItem from="1562673634012" duration="8322000" />
-      <workItem from="1562720090868" duration="12481000" />
+      <workItem from="1562720090868" duration="17299000" />
     </task>
     <task id="LOCAL-00001" summary="简单注释">
       <created>1556612040419</created>
@@ -894,7 +843,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236287000" />
+    <option name="totallyTimeSpent" value="241105000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -906,7 +855,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="1424" y="88" width="1456" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -927,11 +876,12 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23149395" sideWeight="0.6762178" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25825825" sideWeight="0.6762178" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2973684" sideWeight="0.6418338" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22916667" sideWeight="0.77697843" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30802292" sideWeight="0.50739956" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23352435" sideWeight="0.22302158" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -940,7 +890,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.034383953" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -977,55 +926,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/dynamicproxy_cinema/Cinema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webbasic/DemoServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Apache/Tomcat8.5/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="263" column="16" lean-forward="false" selection-start-line="263" selection-start-column="16" selection-end-line="263" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/慕课蒲公英/咕泡学院/课件源码（所有）/tom老师/gupaoedu-singleton/src/com/gupaoedu/singleton/Singleton4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/singleton/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/singleton/Singleton4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/singleton/Singleton3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1124,28 +1024,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/factory.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="252">
-            <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/FactoryMethod.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/simplefactory/ChinesePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/simplefactory/GreekPizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#128#129#0" expanded="false" />
+            <element signature="e#184#185#0" expanded="false" />
+            <element signature="e#224#225#0" expanded="false" />
+            <element signature="e#277#278#0" expanded="false" />
+            <element signature="e#316#317#0" expanded="false" />
+            <element signature="e#368#369#0" expanded="false" />
+            <element signature="e#407#408#0" expanded="false" />
+            <element signature="e#459#460#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1153,6 +1046,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#132#133#0" expanded="false" />
+            <element signature="e#192#193#0" expanded="false" />
+            <element signature="e#232#233#0" expanded="false" />
+            <element signature="e#289#290#0" expanded="false" />
+            <element signature="e#328#329#0" expanded="false" />
+            <element signature="e#384#385#0" expanded="false" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1160,25 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/simplefactory/PizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#228#229#0" expanded="false" />
-            <element signature="e#262#263#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/simplefactory/SimpleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1199,39 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/BMCarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="e#132#133#0" expanded="false" />
-            <element signature="e#167#168#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/BenzCarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#135#136#0" expanded="false" />
-            <element signature="e#170#171#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/BezCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding>
-            <element signature="e#120#121#0" expanded="false" />
-            <element signature="e#169#170#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/BMCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1240,14 +1091,6 @@
             <element signature="e#120#121#0" expanded="false" />
             <element signature="e#166#167#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1361,6 +1204,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmi/MyRemoteClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmi/MyRemote.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1371,27 +1222,151 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmi/MyRemoteImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="63" column="1" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="63" selection-end-column="1" />
+        <state relative-caret-position="1325">
+          <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmi/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="325">
+          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/proxy/headfirst/rmi/MyRemoteClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="256">
+          <caret line="12" column="67" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="67" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/BenzCarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/BezCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/factorymethod/BMCarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/simplefactory/ChinesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#130#131#0" expanded="false" />
+            <element signature="e#190#191#0" expanded="false" />
+            <element signature="e#230#231#0" expanded="false" />
+            <element signature="e#288#289#0" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#384#385#0" expanded="false" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#480#481#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/simplefactory/PizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/ChicagoStylePizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/simplefactory/SimpleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="37" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYChinesePizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYGreekPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYPepperoniPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/NYPizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/PizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/abstractfactory/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gupao/design/factory/factory.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
